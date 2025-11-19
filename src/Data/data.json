@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 1,
+    "description": "All-in-one workspace for notes, tasks, and collaboration.",
+    "size": 70,
+    "reviews": 1850000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/todoist.svg",
+    "title": "Todoist",
+    "companyName": "Doist Inc.",
+    "id": 2,
+    "description": "Organize your tasks and projects with powerful productivity tools.",
+    "size": 35,
+    "reviews": 950000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://static.cdnlogo.com/logos/a/73/asana.svg",
+    "title": "Asana",
+    "companyName": "Asana, Inc.",
+    "id": 3,
+    "description": "Manage projects and teams with tasks, timelines, and workflows.",
+    "size": 65,
+    "reviews": 1100000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 620000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/906/906349.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 4,
+    "description": "Organize projects and collaborate with your team visually.",
+    "size": 70,
+    "reviews": 32000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 280000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1400000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/evernote.svg",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 5,
+    "description": "Capture ideas, manage to-do lists, and plan projects effectively.",
+    "size": 60,
+    "reviews": 1300000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 670000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+    "title": "Microsoft To Do",
+    "companyName": "Microsoft Corporation",
+    "id": 6,
+    "description": "Manage tasks, stay organized, and sync across all devices.",
+    "size": 45,
+    "reviews": 2100000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1070000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/2202px-Dropbox_Icon.svg.png",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 7,
+    "description": "Cloud storage and file sharing service for individuals and teams.",
+    "size": 75,
+    "reviews": 34000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 650000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.brandfolder.io/5H442O3W/as/pl546j-7le8zk-ex8w65/Slack_RGB.svg",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 8,
+    "description": "Team collaboration and communication tool for productivity.",
+    "size": 80,
+    "reviews": 38000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 15000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 9,
+    "description": "Fast, simple, secure messaging app.",
+    "size": 45,
+    "reviews": 178234321,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1250000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 5400000 },
+      { "name": "4 star", "count": 11000000 },
+      { "name": "5 star", "count": 30000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733547.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 10,
+    "description": "Connect with friends and share updates.",
+    "size": 70,
+    "reviews": 134000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3200000 },
+      { "name": "2 star", "count": 4100000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 35000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 11,
+    "description": "Share photos, reels, and stories.",
+    "size": 65,
+    "reviews": 112300000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3100000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 42000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3046/3046120.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 12,
+    "description": "Create and share short videos.",
+    "size": 89,
+    "reviews": 104000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 4100000 },
+      { "name": "4 star", "count": 8900000 },
+      { "name": "5 star", "count": 26000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Watch and share videos worldwide.",
+    "size": 95,
+    "reviews": 150000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 5800000 },
+      { "name": "4 star", "count": 14000000 },
+      { "name": "5 star", "count": 42000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/281/281769.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "Secure email service with fast search and spam protection.",
+    "size": 40,
+    "reviews": 85000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1600000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 9600000 },
+      { "name": "5 star", "count": 28000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991231.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Navigate the world faster with real-time maps and traffic.",
+    "size": 52,
+    "reviews": 70000000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 1300000 },
+      { "name": "3 star", "count": 2700000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 24000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732228.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 16,
+    "description": "Stream movies, series, and TV shows anytime.",
+    "size": 110,
+    "reviews": 99000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2800000 },
+      { "name": "4 star", "count": 8900000 },
+      { "name": "5 star", "count": 25000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 17,
+    "description": "Stream music and podcasts from millions of artists.",
+    "size": 75,
+    "reviews": 120000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 9500000 },
+      { "name": "5 star", "count": 28000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888841.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon.com, Inc.",
+    "id": 18,
+    "description": "Shop millions of products with fast delivery.",
+    "size": 90,
+    "reviews": 80000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 850000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 3200000 },
+      { "name": "4 star", "count": 8700000 },
+      { "name": "5 star", "count": 22000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888857.png",
+    "title": "eBay",
+    "companyName": "eBay Inc.",
+    "id": 19,
+    "description": "Buy and sell electronics, fashion, collectibles, and more.",
+    "size": 85,
+    "reviews": 60000000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 7500000 },
+      { "name": "5 star", "count": 20000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888870.png",
+    "title": "Walmart",
+    "companyName": "Walmart Inc.",
+    "id": 20,
+    "description": "Shop groceries, electronics, and more with easy pickup and delivery.",
+    "size": 95,
+    "reviews": 40000000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 1100000 },
+      { "name": "3 star", "count": 2200000 },
+      { "name": "4 star", "count": 6800000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  }
+]
