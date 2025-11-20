@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "../assets/logo.png";
 
 function Navbar(){
 
@@ -20,7 +21,7 @@ function Navbar(){
             to="/"
             className="flex items-center space-x-2 hover:opacity-80 transition"
           >
-            <img src="/src/assets/logo.png" alt="HERO.IO" className="w-8 h-8" />
+            <img src={logo} alt="HERO.IO" className="w-8 h-8" />
             <span className="text-xl font-bold text-purple-600">HERO.IO</span>
           </Link>
 

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import logo from "../assets/logo.png";
 
 function Footer(){
   const currentYear = new Date().getFullYear();
@@ -9,7 +10,7 @@ function Footer(){
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition">
-            <img src="/src/assets/logo.png" alt="HERO.IO" className="w-8 h-8" />
+            <img src={logo} alt="HERO.IO" className="w-8 h-8" />
             <span className="text-xl font-bold">HERO.IO</span>
           </Link>
           <div className="flex flex-col items-center md:items-end space-y-3">

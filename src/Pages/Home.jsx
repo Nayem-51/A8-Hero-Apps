@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Loading from "../Components/Loading";
 import AppCard from "../Components/AppCard";
 import appsData from "../Data/data.json";
+import heroImage from "../assets/hero.png";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -51,7 +52,7 @@ function Home() {
           </div>
           <div className="flex items-center justify-center w-full px-4 mb-12">
             <img
-              src="/src/assets/hero.png"
+              src={heroImage}
               alt="HERO.IO App Preview"
               className="w-full max-w-4xl h-auto object-contain rounded-3xl"
             />
