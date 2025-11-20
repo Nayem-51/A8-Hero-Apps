@@ -4,7 +4,8 @@ import appsData from "../Data/data.json";
 import AppCard from '../Components/AppCard';
 import Loading from '../Components/Loading';
 
-function AllApps() {
+function AllApps(){
+    
     const [loading, setLoading] = useState(true);
     const [apps, setApps] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
@@ -20,13 +21,15 @@ function AllApps() {
         app.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
-    const handleSearch = (value) => {
+    const handleSearch = (value) =>{
+
         setSearchTerm(value);
+
     };
 
     if (loading) return <Loading />;
 
-    return (
+    return(
         <div className="container mx-auto px-4 py-12 min-h-[70vh]">
             <div className="text-center mb-12">
                 <h1 className="text-4xl font-bold text-gray-800 mb-3">All Applications</h1>

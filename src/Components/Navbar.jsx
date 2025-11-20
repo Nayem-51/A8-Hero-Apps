@@ -2,8 +2,10 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-function Navbar() {
+function Navbar(){
+
     const location = useLocation();
+
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const isActive = (path) => location.pathname === path;
@@ -63,6 +65,7 @@ function Navbar() {
                         {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
                     </button>
                 </div>
+                
                 {mobileMenuOpen && (
                     <nav className="md:hidden flex flex-col space-y-3 mt-4 pb-4 border-t pt-4">
                         <Link

@@ -1,10 +1,10 @@
 import { Star, Download } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-function AppCard({ app }) {
+function AppCard({ app }){
   const navigate = useNavigate();
 
-  const formatDownloads = (num) => {
+  const formatDownloads = (num) =>{
     if (num >= 1000000000) return (num / 1000000000).toFixed(1) + 'B';
     if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
     if (num >= 1000) return (num / 1000).toFixed(1) + 'K';
@@ -18,10 +18,12 @@ function AppCard({ app }) {
     >
       <div className="relative w-full h-48 bg-gray-100 flex items-center justify-center overflow-hidden rounded-xl group">
         <img
+
           src={app.image}
           alt={app.title}
           className="max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-105"
         />
+        
         <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
       </div>
       <div className="p-4">
@@ -39,6 +41,7 @@ function AppCard({ app }) {
         </div>
       </div>
     </div>
+
   );
 }
 export default AppCard;

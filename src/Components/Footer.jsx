@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-function Footer() {
+function Footer(){
+
   const currentYear = new Date().getFullYear();
 
-  return (
+  return(
     <footer className="bg-gray-900 text-white mt-1">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
@@ -51,6 +52,7 @@ function Footer() {
         </div>
       </div>
     </footer>
+    
   );
 }
 
