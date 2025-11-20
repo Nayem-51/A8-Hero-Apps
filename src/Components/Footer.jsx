@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Footer(){
-
   const currentYear = new Date().getFullYear();
 
   return(
@@ -17,7 +16,7 @@ function Footer(){
             <h3 className="text-sm font-semibold">Social Links</h3>
             <div className="flex space-x-3">
               <a
-                href="https://www.facebook.com/Miiiilon/"
+                href="https://www.facebook.com/md.nayemislam.9693001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-2 rounded-full hover:bg-gray-700 transition"
@@ -26,7 +25,7 @@ function Footer(){
                 <i className="fa-brands fa-twitter text-lg"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/muhammadmilon/"
+                href="https://www.linkedin.com/in/nayem-talukdar-765b5b309/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-2 rounded-full hover:bg-gray-700 transition"
@@ -35,7 +34,7 @@ function Footer(){
                 <i className="fa-brands fa-linkedin-in text-lg"></i>
               </a>
               <a
-                href="https://www.facebook.com/Miiiilon/"
+                href="https://www.facebook.com/md.nayemislam.9693001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-2 rounded-full hover:bg-gray-700 transition"
@@ -52,7 +51,6 @@ function Footer(){
         </div>
       </div>
     </footer>
-    
   );
 }
 

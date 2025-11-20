@@ -1,6 +1,7 @@
 import logo from "../assets/logo.png";
 
 function Loading(){
+  
   return(
     <div className="flex flex-col items-center justify-center min-h-[400px]">
       <div className="text-gray-600 font-bold text-2xl flex items-center space-x-1">
