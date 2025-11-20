@@ -83,10 +83,10 @@ function Home() {
         </div>
         <div className="mt-20">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-4">
-            Trending Apps
+            Top Apps
           </h2>
           <p className="text-gray-600 text-center mb-6">
-            Explore our most popular and trending apps that users love and trust for their
+            Explore our most popular and top-rated apps that users love and trust for their
             productivity needs.
           </p>
           <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">

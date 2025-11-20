@@ -9,6 +9,7 @@ function AllApps(){
     const [loading, setLoading] = useState(true);
     const [apps, setApps] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
+    const [showAll, setShowAll] = useState(false);
 
     useEffect(() => {
         setTimeout(() => {
@@ -21,10 +22,15 @@ function AllApps(){
         app.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
+    // Show 8 apps initially (only if no search), or all apps if showAll is true or search is active
+    const displayedApps = (showAll || searchTerm.trim() !== '') ? filteredApps : filteredApps.slice(0, 8);
+
     const handleSearch = (value) =>{
-
         setSearchTerm(value);
-
+        // Reset showAll when searching
+        if (value.trim() === '') {
+            setShowAll(false);
+        }
     };
 
     if (loading) return <Loading />;
@@ -59,7 +65,7 @@ function AllApps(){
             </div>
 
             <div className="min-h-[300px] flex flex-col items-center justify-center">
-                {filteredApps.length === 0 ? (
+                {displayedApps.length === 0 ? (
                     <div className="text-center">
                         <div className="text-8xl mb-6">😔</div>
                         <h2 className="text-3xl font-bold text-gray-800 mb-4">No App Found</h2>
@@ -71,11 +77,23 @@ function AllApps(){
                         </button>
                     </div>
                 ) : (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
-                        {filteredApps.map((app) => (
-                            <AppCard key={app.id} app={app} />
-                        ))}
-                    </div>
+                    <>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
+                            {displayedApps.map((app) => (
+                                <AppCard key={app.id} app={app} />
+                            ))}
+                        </div>
+                        {!showAll && filteredApps.length > 8 && searchTerm.trim() === '' && (
+                            <div className="text-center mt-12">
+                                <button
+                                    onClick={() => setShowAll(true)}
+                                    className="bg-purple-600 text-white px-10 py-3 rounded-lg font-semibold text-lg hover:bg-purple-700 transition transform hover:scale-105 shadow-lg"
+                                >
+                                    Show All
+                                </button>
+                            </div>
+                        )}
+                    </>
                 )}
             </div>
         </div>
